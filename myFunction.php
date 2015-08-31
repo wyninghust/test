@@ -21,7 +21,7 @@ function getFiles($path)
 //将中英文字符串分割成单个字或字母组成的数组
  preg_match_all("/./u", 'a在这里填入需要分割的字符串b', $arr);
  $singleWordArr=$arr[0];
-//var_dump($singleWordArr);
+var_dump($singleWordArr);
 
 /**
  * 字符串命名风格转换
